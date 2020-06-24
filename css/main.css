@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Avenir', sans-serif;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    padding: 43px 0 44px 0;
+    z-index: 2;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header__burger {
+    width: 26px;
+    height: 26px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    width: 808px;
+    margin: 0 auto;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+}
+
+.header__logo {
+    margin-right: 98px;
+    margin-left: 43px;
+}
+
+.header__list {
+    margin-right: 55px;
+}
+
+.header__links {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.header__links:hover {
+    color: #C08D5D;
+}
+
+.hero {
+    padding-top: 186px;
+}
+
+.hero__row {
+    position: relative;
+    display: flex;
+    background-color: #FFFAF3;
+    padding: 81px 0 81px 120px;
+    box-shadow: 0 70px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.hero__content {
+    max-width: 535px;
+}
+
+.hero__img {
+    position: absolute;
+    right: -50px;
+    top: -190px;
+    z-index: 1;
+    max-width: 660px;
+    max-height: 878px;
+}
+
+.hero__title {
+    position: relative;
+    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+    color: #3F4042;
+}
+
+.hero__btn span {
+    position: absolute;
+    top: 17px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -17px;
+    height: 68px;
+    width: 60px;
+    background-color: #C08D5D;
+}
+
+.hero__title::before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    width: 175px;
+    height: 12px;
+    background: url(../images/curve-line.png) no-repeat;
+}
+
+.hero__minititle {
+    position: relative;
+    font-size: 50px;
+}
+
+.hero__minititle::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -50%;
+    width: 45px;
+    height: 70px;
+    background: url(../images/logo.png) no-repeat;
+}
+
+.hero__description {
+    margin: 55px 0 72px;
+    font-size: 18px;
+    letter-spacing: 6%;
+    line-height: 1.5;
+}
+
+.hero__btn {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 196px;
+    border: 2px solid #C08D5D;
+    text-decoration: none;
+    color: #3F4042;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0 20px 15px;
+    max-height: 35px;
+}
